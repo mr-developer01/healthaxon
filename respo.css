@@ -1,0 +1,98 @@
+@media (max-width: 600px) {
+  nav img {
+    width: 20vw;
+  }
+  .line {
+    width: 7vw;
+  }
+  #links {
+    justify-content: space-between;
+    padding-top: 15vh;
+    padding-bottom: 2vh;
+  }
+  #linksCntnt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 4vh;
+    height: fit-content;
+  }
+  #linksCntnt .lft {
+    width: 100%;
+    height: fit-content;
+  }
+  .circle {
+    width: 60vw;
+    height: 60vw;
+  }
+  #linksCntnt .rght {
+    width: fit-content;
+    align-items: center;
+    height: fit-content;
+    gap: 10px;
+  }
+  #linksCntnt .rght a {
+    font-size: 6vw;
+  }
+
+  #linksFooter {
+    flex-direction: column;
+    gap: 3vw;
+    width: 100%;
+    height: fit-content;
+    margin-top: 0vh;
+  }
+
+  main {
+    justify-content: unset;
+    width: 100%;
+    height: 50vh;
+  }
+
+  #hero {
+    flex-direction: column-reverse;
+    justify-content: unset;
+    gap: 2vh;
+    width: 100%;
+    height: fit-content;
+    overflow-x: hidden;
+  }
+  #hero video {
+    width: 120%;
+  }
+  #hero h1 {
+    font-family: f4;
+    width: 100%;
+    font-size: 5vw;
+    font-weight: 500;
+    line-height: 5vw;
+    text-align: center;
+  }
+  #part-1 {
+    flex-direction: column-reverse;
+    justify-content: start;
+    gap: 6vh;
+    min-height: fit-content;
+    padding-bottom: 4vhvh;
+  }
+
+  #part-1 .part1-video {
+    overflow-x: hidden;
+  }
+  #part-1 .part1-video img {
+    width: 15vw;
+  }
+
+  #part-1 video {
+    margin-top: 8vh;
+    width: 75%;
+  }
+  #part-1 .top h2 {
+    font-size: 8vw;
+  }
+  #part-1 .top p {
+    font-size: 4vw;
+    width: 100%;
+  }
+}
